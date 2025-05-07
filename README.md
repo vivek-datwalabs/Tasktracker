@@ -127,6 +127,3 @@ MONGODB_URI=your-mongodb-uri
 
 ---
 
-## Author
-
-Task Tracker Team
