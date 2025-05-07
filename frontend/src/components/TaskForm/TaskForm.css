@@ -1,0 +1,39 @@
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .task-form button {
+    padding: 12px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  .task-form button:hover {
+    background: #0056b3;
+  }
+  
+  @media (max-width: 600px) {
+    .task-form {
+      flex-direction: column;
+    }
+  
+    .task-form button {
+      width: 100%;
+    }
+  }
+  
