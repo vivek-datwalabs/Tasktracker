@@ -112,6 +112,29 @@ http://<your-domain-or-ip>:<port>/api/tasks
 
 ---
 
+---
+
+### 5. View All Deleted Task
+
+- **URL**: `/alldeletedtask`
+- **Method**: `GET`
+- **Response**:
+  ```json
+  [
+  {
+    "_id": "681b411277bbf76392c09e16",
+    "title": "test123",
+    "isDeleted": true,
+    "createdAt": "2025-05-07T11:16:34.364Z",
+    "updatedAt": "2025-05-07T11:22:18.051Z",
+    "__v": 0,
+    "completed": true
+  }
+  ]
+  ```
+
+---
+
 ## Notes
 
 - All errors will return a structured JSON error message with appropriate HTTP status codes.
